@@ -2,9 +2,9 @@ var mongoose = require("mongoose")
 var Schema = mongoose.Schema
 
 var note = new Schema({
+    note: String,
     title : String,
-    date : String,
-    note : String
+    date : String
 })
 
 //Transfering our schema
